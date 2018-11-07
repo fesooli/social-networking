@@ -1,0 +1,7 @@
+GET      /                                  controllers.ProfileController.index
+
+POST     /profile                           controllers.ProfileController.addProfile
+
+PUT      /connectProfiles                   controllers.ProfileController.connectProfiles
+
+POST     /generateConnectionsSuggestions    controllers.ProfileController.generateConnectionsSuggestions
