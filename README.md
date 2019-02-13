@@ -1,5 +1,3 @@
-This project consists of a test for the Software Engineer position on Nubank.
-
 The test statement is as follows:
 You are tasked with making Nukr, a new social media product by Nu Everything S / A. The initial step is to create a prototype service that provides a REST API where we can simulate connections between people, and explore how we would offer new connection suggestions.
 These are the features required:
@@ -126,7 +124,3 @@ A JSON will be returned with suggestions for connections, such as:
 The way the connections are suggested is as follows:
 A search is done with the ID used in the request, bringing the profile of the person and the connections of the same and, based on these connections, searches are made on the connections of the connections of the profile found, and those who have more connections in common, is better classified.
 If the profile is new and there are no connections yet to be searched, it will be searched and suggested randomly according to the UF registered in the profile and if there is no record with that UF, no connection suggestion will be returned.
-
-**Note: There are things like unit testing and integration and error handling that I did not do because, as I said, it is the first time I use the Scala language and did not know exactly how to use it. And since it took me a long time to deliver the test, I decided to deliver without these things.**
-
-**Thanks for the opportunity.**
